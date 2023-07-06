@@ -1,0 +1,38 @@
+[data-theme='dark'] {
+    --primary-color: #64b5f6;
+    --background-color: #121212;
+    --text-color: #fff;
+}
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
